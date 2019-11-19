@@ -1,6 +1,10 @@
 package com.example.P5;
 
+import com.sun.deploy.util.StringUtils;
+
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 /*******************************************************************************
@@ -21,9 +25,14 @@ import java.util.List;
  *******************************************************************************/
 
 public class Reverse2D {
+  public static List<String> getReversedList(List<String> list) {
+    Collections.reverse(list);
+    return list;
+  }
+
   public static String reverse2D(List<List<String>> list) {
-//    Collections.reverse(list).stream()
-//            .reduce("", (accumulator, innerList) -> accumulator + StringUtils.join(Collections.reverse(innerList), ""));
+    /*********************************************************
+     * INITIAL SOLUTION with regular for-loop. TIME COMPLEXITY - O(n^2)
     StringBuilder str = new StringBuilder();
 
     for (int i = list.size() - 1; i >= 0; i--) {
@@ -34,7 +43,27 @@ public class Reverse2D {
       }
     }
 
-    return str.toString();
+     return str.toString();
+     **********************************************************/
+
+
+    /*********************************************************
+     * SECOND SOLUTION using JAVA 8 streams with forEach method
+     *********************************************************/
+     Collections.reverse(list);
+     StringBuilder str = new StringBuilder();
+
+     list.stream()
+             .forEach(innerList -> {
+               Collections.reverse(innerList);
+               str.append(StringUtils.join(innerList, ""));
+             });
+     return str.toString();
+
+    /*********************************************************
+     * NON-WORKING SOLUTION using JAVA 8 streams with reduce method
+     return list.stream().reduce("", (accumulator, innerList) -> accumulator + StringUtils.join(Reverse2D.getReversedList(innerList), ""));
+     *********************************************************/
   }
 
   public static void main(String[] args) {

@@ -40,9 +40,9 @@ import java.util.HashMap;
  *******************************************************************************/
 
 public class TotalNumProblems {
-  public static totalNumProblems(HashMap<>) {
-
-  }
+//  public static totalNumProblems(HashMap<>) {
+//
+//  }
 
   public static void main(String[] args) {
     System.out.println("Hello World!");
