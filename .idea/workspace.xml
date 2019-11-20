@@ -188,8 +188,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/P5/Reverse2D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+            <state relative-caret-position="183">
+              <caret line="64" column="31" lean-forward="true" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -413,12 +413,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573998242441</updated>
-      <workItem from="1573998247522" duration="25430000" />
+      <workItem from="1573998247522" duration="25586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25430000" />
+    <option name="totallyTimeSpent" value="25586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="792" extended-state="0" />
@@ -581,8 +581,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/P5/Reverse2D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+        <state relative-caret-position="183">
+          <caret line="64" column="31" lean-forward="true" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

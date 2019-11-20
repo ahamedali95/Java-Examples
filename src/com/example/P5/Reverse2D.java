@@ -65,8 +65,6 @@ public class Reverse2D {
      Collections.reverse(list);
      return list.stream().reduce("", (accumulator, innerList) -> accumulator + StringUtils.join(Reverse2D.getReversedList(innerList), ""));
      *********************************************************/
-    return list.stream().reduce("", (accumulator, innerList) -> accumulator + StringUtils.join(Reverse2D.getReversedList(innerList), ""));
-
   }
 
   public static void main(String[] args) {
