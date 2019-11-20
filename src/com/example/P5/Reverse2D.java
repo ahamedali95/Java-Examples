@@ -62,6 +62,7 @@ public class Reverse2D {
 
     /*********************************************************
      * NON-WORKING SOLUTION using JAVA 8 streams with reduce method
+     * COMPILATION ERROR!
      Collections.reverse(list);
      return list.stream().reduce("", (accumulator, innerList) -> accumulator + StringUtils.join(Reverse2D.getReversedList(innerList), ""));
      *********************************************************/
